@@ -1,19 +1,18 @@
 body {
-  background-image: url("bgYarn.png");
+  background-image: url("images/bgYarn.png");
   background-position: center;
   background-repeat: repeat-y;
   height: 5000px;
 }
 
 
-.bottom {
-  display: flex;
+/*.bottom {
   width: 100%;
-  height: 45%;
+  height: 70%;
   position: fixed;
   bottom: 0;
 
-}
+}*/
 
 .scroll {
   width: 100%;
@@ -23,13 +22,38 @@ body {
   z-index: 0;
 }
 
-.text {
+/*.text {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-
+  align-content: center;
   position: absolute;
-  z-index: 1;
 
+
+
+}*/
+section {
+  
+  /*margin-top: 50px;
+  margin-bottom: 50px;*/
+}
+
+.bottom {
+  background-image: url("images/scroll.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+
+}
+.text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 1px 1px rgba(98, 98, 98, 0.7);
+  padding-top: 37px;
+  padding-bottom: 36px;
 }
 
 h1 {
@@ -45,6 +69,7 @@ p {
   text-align: center;
   margin-top: 10px;
   font-family: 'Great Vibes', cursive;
+
 }
 
 .part {
