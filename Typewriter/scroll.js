@@ -4,12 +4,12 @@
 
 $(document).ready(function() {
     $(".scroll-down").click(function(event){
-        $('html, body').animate({scrollTop: '+=400px'}, 800);
+        $('html, body').animate({scrollTop: '+=400px'}, 1500);
     });
 });
 
 $(document).ready(function() {
     $(".scroll-up").click(function(event){
-        $('html, body').animate({scrollTop: '-=400px'}, 800);
+        $('html, body').animate({scrollTop: '-=400px'}, 1500);
     });
 });
