@@ -84,4 +84,5 @@ function init() {
   }
 }
 /* Start */
-init();
+// GÖR KOD NEDAN SYNLIG OM FUNCTION SKALL TRIGGAS AV SIG SJÄLV
+// init();
