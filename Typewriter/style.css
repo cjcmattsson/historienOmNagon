@@ -1,0 +1,51 @@
+body {
+  background-image: url("bgYarn.png");
+  font-family: "Courier New", Monospace;
+  color: #000;
+  font-size: 25px;
+  font-family: 'Special Elite', cursive;
+  font-weight: lighter;
+  background-position: center;
+  background-repeat: repeat-y;
+  height: 5000px;
+
+}
+
+.chardelay {
+  margin: 2em;
+  padding: 2em;
+  line-height: 1.5em;
+}
+
+#divID {
+  background-image: url("oldPaper.png");
+  background-repeat:  no-repeat;
+  height: 300px;
+  max-width: 750px;
+  bottom: 0;
+  margin: 0 auto;
+  position: fixed;
+    /* center the element */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.first {
+    width: 100%;
+    height: 400px;
+    background: black;
+}
+
+.second {
+    width: 100%;
+    height: 400px;
+    background: blue;
+
+}
+.third {
+    width: 100%;
+    height: 400px;
+
+}
