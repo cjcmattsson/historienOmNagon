@@ -3,6 +3,7 @@
  */
 /*Set String */
 var str = 'Det här var underligt! Det är en våt fläck på golvet i tamburen! Någon måste ha varit här! Bla bla bla bla Bla bla bla bla Bla bla bla bla';
+
 /* Set Array */
 var arr = [1, 2, 3, 4, 5, 6, 7, 8];
 /*
@@ -10,6 +11,7 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8];
  * In this case choose arr or str
  */
 var obj = str;
+
 /*
  * Set direction
  *  - 'h'= horizontal, 'v' = vertical
