@@ -7,26 +7,22 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-  <link rel="stylesheet" href="/css/master.css">
+
 </head>
 <body>
 
 <div id="divID">
-  <button type="button" class="scroll-down" onclick="init()">Down</button>
-  <button type="button" class="scroll-up">Up</button>
+
+  <button type="button" class="scroll-down"  onclick="typewriter();">Down</button>
+  <button type="button" class="scroll-up" onclick="document.getElementById('foo').innerHTML = prevWord();">Up</button>
+  <p id="foo" class="chardelay"></p>
 </div>
 
 
 
+<script type="text/javascript" src="test-script.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="scroll.js">
-
-</script>
-<script src="script.js">
-
-
-
-</script>
+<script type="text/javascript" src="scroll.js"></script>
 
 </body>
 </html>
