@@ -8,9 +8,48 @@ body {
   background-repeat: repeat-y;
   background-size: contain;
   height: 5000px;
+  margin: 0;
 
 }
+/*LADNINGPAGE */
+@keyframes starthappy {
+  from {margin-left: -20%;}
+  to {margin-left: 100px;}
+}
+.start_happy {
+  background-image: url(../cartman/startHappy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 50px;
+  animation-name: starthappy;
+  animation-duration: 4s;
+}
+/*PAGE TWO*/
+@keyframes wondering5  {
+  from {margin-right: -20%}
+  to {margin-right: 150px;}
+}
 
+.wondering_5 {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  background-image: url(../cartman/wondering5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin-right: 150px;
+  margin-top: 50px;
+  animation-name: wondering5;
+  animation-duration: 4s;
+}
+
+
+/*PUSH DOWN OCH TYPEWRITER*/
 .text {
   max-height: 30%;
   background-size: contain;
@@ -24,7 +63,7 @@ body {
   background-image: url("oldPaper.png");
   background-repeat:  no-repeat;
   background-position: center;
-  background-size: contain;  
+  background-size: contain;
   height: 610px;
   max-width: 900px;
   bottom: -340px;
@@ -54,6 +93,7 @@ body {
     height: 400px;
 
 }
+/*MEDIA RESPONSIVE*/
 
 @media only screen and (min-width : 569px) and (max-width : 1024px) {
 
