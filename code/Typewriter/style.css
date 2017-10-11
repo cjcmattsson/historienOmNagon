@@ -12,7 +12,7 @@ body {
 
 }
 /*LADNINGPAGE */
-@keyframes starthappy {
+@keyframes start_happy {
   from {margin-left: -20%;}
   to {margin-left: 100px;}
 }
@@ -24,11 +24,11 @@ body {
   width: 200px;
   margin-left: 100px;
   margin-top: 50px;
-  animation-name: starthappy;
+  animation-name: start_happy;
   animation-duration: 4s;
 }
 /*PAGE TWO*/
-@keyframes wondering5  {
+@keyframes wondering_5  {
   from {margin-right: -20%}
   to {margin-right: 120px;}
 }
@@ -44,7 +44,22 @@ body {
   width: 200px;
   margin-right: 120px;
   margin-top: 300px;
-  animation-name: wondering5;
+  animation-name: wondering_5;
+  animation-duration: 4s;
+}
+@keyframes splash {
+  from {margin-left: -20%;}
+  to { margin-left: 100px;}
+}
+
+.splash {
+  background-image: url(../images/splash.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin-left: 100px;
+  animation-name: splash;
   animation-duration: 4s;
 }
 
