@@ -30,7 +30,7 @@ body {
 /*PAGE TWO*/
 @keyframes wondering5  {
   from {margin-right: -20%}
-  to {margin-right: 150px;}
+  to {margin-right: 120px;}
 }
 
 .wondering_5 {
@@ -42,8 +42,8 @@ body {
   background-repeat: no-repeat;
   height: 200px;
   width: 200px;
-  margin-right: 150px;
-  margin-top: 50px;
+  margin-right: 120px;
+  margin-top: 300px;
   animation-name: wondering5;
   animation-duration: 4s;
 }
