@@ -24,8 +24,8 @@ body {
   background-image: url("oldPaper.png");
   background-repeat:  no-repeat;
   background-position: center;
-  background-size: contain;
-  height: 650px;
+  background-size: contain;  
+  height: 610px;
   max-width: 900px;
   bottom: -340px;
   margin: 0 auto;
@@ -55,11 +55,13 @@ body {
 
 }
 
-/*@media screen and (max-width: 1900px) {
-  .text {
-    font-size: 22px;
+@media only screen and (min-width : 569px) and (max-width : 1024px) {
 
+  .text {
+    font-size: 18px;
+    margin-top: 60px;
   }
+
   #divID {
     background-image: url("oldPaper.png");
     background-repeat:  no-repeat;
@@ -67,19 +69,19 @@ body {
     background-size: contain;
     height: 650px;
     max-width: 900px;
-    bottom: -360px;
+    bottom: -240px;
     margin: 0 auto;
     position: fixed;
-      /* center the element */
-    /*right: 0;
+    right: 0;
     left: 0;
     margin-right: auto;
     margin-left: auto;
   }
-}*/
+
+}
 
 
-@media screen and (max-width: 415px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
   .text {
     font-size: 12px;
 
@@ -104,30 +106,13 @@ body {
 
 }
 
-}
 
 
-@media screen and (min-width: 768px) {
+
+/*@media screen and (min-width: 1200px) {
   .text {
     font-size: 18px;
     margin-top: 60px;
   }
 
-  #divID {
-    background-image: url("oldPaper.png");
-    background-repeat:  no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 650px;
-    max-width: 900px;
-    bottom: -240px;
-    margin: 0 auto;
-    position: fixed;
-      /* center the element */
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-}
+}*/

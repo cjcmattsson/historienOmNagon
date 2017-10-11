@@ -20,7 +20,7 @@ var aText = new Array(
   'Kissemissen heter Nisse. Men vill du veta något mera, så får du fråga honom själv.'
 );
 
-var iSpeed = 60; // time delay of print out
+var iSpeed = 10; // time delay of print out
 var iIndex = 0; // start printing array at this posision
 var sContents = ''; // initialise contents variable
 var destination;
