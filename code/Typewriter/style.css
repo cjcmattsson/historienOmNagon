@@ -9,59 +9,95 @@ body {
   background-size: contain;
   height: 5000px;
   margin: 0;
+  /*overflow: hidden; */ /* SHOWN ON PRESENTATION */
 
 }
 /*LADNINGPAGE */
 @keyframes start_happy {
-  from {margin-left: -20%;}
-  to {margin-left: 100px;}
+  from
+  {
+    transform: rotate(20deg);
+    margin-left: -20%;
+  }
+  to
+  {
+    transform: rotate(-20deg);
+    margin-left: 100px;
+  }
 }
 .start_happy {
   background-image: url(../cartman/startHappy.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   margin-left: 100px;
   margin-top: 50px;
   animation-name: start_happy;
   animation-duration: 4s;
+  animation-fill-mode: forwards;
 }
 /*PAGE TWO*/
-@keyframes wondering_5  {
-  from {margin-right: -20%}
-  to {margin-right: 120px;}
-}
 
-.wondering_5 {
+
+@keyframes wondering_5  {
+  from
+  {
+    height: 200px;
+    width: 200px;
+    margin-right: -20%;
+    transform: rotate(180deg);
+  }
+  to
+  {
+    height: 400px;
+    width: 400px;
+    margin-right: 120px;
+    transform: rotate(20deg);
+  }
+}
+.wondering_5-animate {
+  animation-name: wondering_5;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
   display: flex;
   justify-content: flex-end;
   margin: auto;
   background-image: url(../cartman/wondering5.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 200px;
-  width: 200px;
-  margin-right: 120px;
-  margin-top: 300px;
-  animation-name: wondering_5;
-  animation-duration: 4s;
-}
-@keyframes splash {
-  from {margin-left: -20%;}
-  to { margin-left: 100px;}
+  border-radius: 50%;
+  /*height: 400px;
+  width: 400px;*/
+  margin-top: 200px;
 }
 
-.splash {
+
+@keyframes splash {
+  from
+  {
+    transform: rotate(180deg);
+    height: 5px;
+    margin-left: -20%;
+
+  }
+  to
+  {
+    transform: rotate(10deg);
+    height: 250px;
+    margin-left: 100px;
+  }
+}
+.splash-animate {
+  animation-name: splash;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
   background-image: url(../images/splash.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 200px;
-  width: 200px;
-  margin-left: 100px;
-  animation-name: splash;
-  animation-duration: 4s;
+  margin-top: -20%;
 }
+
 
 
 /*PUSH DOWN OCH TYPEWRITER*/
