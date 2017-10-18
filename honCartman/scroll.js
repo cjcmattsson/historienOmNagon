@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
     $(".scroll-down").click(function(event){
-        $('html, body, .wondering_5').animate({scrollTop: '+=400px'}, 3000);
+        $('html, body, .wondering_5').animate({scrollTop: '+=200px'}, 3000);
         // $('.wondering_5').addClass('wondering_5-animate'), $('.splash').addClass('splash-animate');
 
     });

@@ -1,3 +1,8 @@
+* {
+  font-family: monospace;
+  font-size: 18px;
+}
+
 body {
   background-image: url('bgYarn.png');
   height: 100vh;
@@ -24,7 +29,7 @@ body {
 .start {
   width: 30%;
   height: 40%;
-  transition: all 2s ease-in;
+
 }
 
 .fp-viewing-1 .start,
@@ -33,10 +38,22 @@ body {
 .fp-viewing-5 .start,
 .fp-viewing-6 .start,
 .fp-viewing-7 .start,
-.fp-viewing-8 .start
- {
+.fp-viewing-8 .start,
+.fp-viewing-9 .start,
+.fp-viewing-10 .start,
+.fp-viewing-11 .start,
+.fp-viewing-12 .start,
+.fp-viewing-13 .start,
+.fp-viewing-14 .start,
+.fp-viewing-15 .start,
+.fp-viewing-16 .start,
+.fp-viewing-17 .start,
+.fp-viewing-18 .start,
+.fp-viewing-19 .start,
+.fp-viewing-20 .start {
   transform: rotate(360deg);
-  
+  transition-duration: 2s;
+  transition-delay: 1s;
 }
 
 p {
