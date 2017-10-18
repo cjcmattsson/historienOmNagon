@@ -11,6 +11,8 @@
   <script src="jquery.fullPage.min.js"></script>
   <link rel="stylesheet" href="jquery.fullPage.css"></script>
   <!-- Från gamla skiten -->
+  <script type="text/javascript" src="test-script.js"></script>
+  <script type="text/javascript" src="scroll.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 
 
@@ -19,10 +21,12 @@
 <body>
 
   <div id="wrapper">
-    <img src="bgYarn.png" alt="">
+    <div id="onscroll" onscroll="typewriter();" onscroll="document.getElementById('foo').innerHTML = prevWord();">
+
+    </div>
 
     <div class="section">
-        <img class="landPage" src="stratingpagebig.png" alt="">
+        <img class="landPage" src="startingpagebig2.png"  alt="">
     </div>
 
     <div class="section">
@@ -96,6 +100,7 @@
     <div class="section">
       <img src="cartman/wondering3.png" alt="">
       <img src="images/blue-vase.png" alt="">
+
     </div>
     <div class="section">
       <img src="cartman/wondering4.png" alt="">
@@ -104,6 +109,7 @@
     </div>
     <div class="section">
       <img src="cartman/cute.png" alt="">
+      <img src="images/cat.png" alt="">
     </div>
     <div class="section">
       <img src="" alt="">
@@ -125,8 +131,7 @@
   </script>
 
 <!-- Från gamla skiten -->
-<script type="text/javascript" src="test-script.js"></script>
-<script type="text/javascript" src="scroll.js"></script>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
