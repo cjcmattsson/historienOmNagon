@@ -1,13 +1,14 @@
 body {
   background-image: url('bgYarn.png');
-  height: 100%;
+  height: 100vh;
+
 }
 
 .section {
   position: relative;
 }
 
-.landPage {
+.landPage, .landPageSmall {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -16,14 +17,13 @@ body {
 }
 
 img {
-  width: 400px;
-  height: 300px;
+  width: 30%;
+  height: 40%;
 }
 
 .start {
-  width: 400px;
-  height: 300px;
-  position: absolute;
+  width: 70vw;
+  height: 50vh;
   transition: all 2s ease-in;
 }
 
@@ -32,7 +32,17 @@ img {
 
 }
 
+@media screen and (min-width:415px) {
+    .landPageSmall {
+        display:none;
+    }
+}
 
+@media screen and (max-width:414px) {
+    .landPage {
+        display:none;
+    }
+}
 
 /*@media only screen and (min-width: 410px) {
 
