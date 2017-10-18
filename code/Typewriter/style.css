@@ -1,3 +1,14 @@
+@keyframes bgYarn {
+  from {
+    height: 0px;
+    opacity: 0;
+  }
+  to {
+    height: 5000px;
+    opacity: 1;
+  }
+}
+
 body {
   background-image: url("bgYarn.png");
   font-family: "Courier New", Monospace;
@@ -9,6 +20,12 @@ body {
   background-size: contain;
   height: 5000px;
   margin: 0;
+  opacity: 0;
+  animation-name: bgYarn;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: translateY(ty);
   /*overflow: hidden; */ /* SHOWN ON PRESENTATION */
 
 }
