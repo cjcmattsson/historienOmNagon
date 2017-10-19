@@ -5,8 +5,9 @@
 
 body {
   background-image: url('bgYarn.png');
+  background-size: contain;
   height: 100vh;
-
+  width: 100vw;
 }
 
 .section {
@@ -23,7 +24,6 @@ body {
 
 
 img {
-  visibility: visible;
   width: 30%;
   height: 40%;
 

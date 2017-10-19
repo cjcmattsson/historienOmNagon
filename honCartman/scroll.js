@@ -1,6 +1,6 @@
 
 // KODEN NEDAN STÄNGER AC MÖJLIGHETEN ATT SCROLLA MED MUS/TOUCHPAD
-// window.onwheel = function(){ return false; }
+window.onwheel = function(){ return false; }
 
 $(document).ready(function() {
     $(".scroll-down").click(function(event){
