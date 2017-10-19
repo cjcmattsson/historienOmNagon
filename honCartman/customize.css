@@ -52,18 +52,19 @@ body {
 /*Second page*/
 
 .splash {
-  bottom: -93px;
+  bottom: -70px;
   height: 15%;
   margin: 0;
 }
 
 .splash img {
-  bottom: -93px;
+  bottom: -70px;
   position: absolute;
   width: 100vw;
   margin: 0;
   z-index: 1;
 }
+
 
 .second {
   background-color: black;
@@ -112,19 +113,21 @@ body {
 /*third page*/
 
 .third {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #34495e;
+  height: 100%;
+
 }
 
 .thirdText {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  color: white;
   font-size: 38px;
   z-index: 1;
-  margin-left: 20px;
-  margin-top: 0px;
   text-align: center;
-  position: relative;
-  right: 15px;
+
 }
 
 .cartThr img{
@@ -135,14 +138,22 @@ body {
   margin: 0;
   z-index: 1;
   right: 10px;
+  margin-bottom: 100px;
 }
 
 .doorDark img {
   z-index: 0;
   right: 0;
-  height: 50vh;
+  height: 90%;
+  width: 90%;
 
 }
+@media screen and (min-width:1024px) {
+  .doorDark {
+    width: 70%;
+    height: 50%;
+  }
+
 
 /*@media screen and (max-width:414px) {
   .cartThr img {
@@ -165,6 +176,46 @@ body {
 
 
 /*fourth page*/
+
+
+.fourth {
+  background-color: #3498db;
+}
+
+.wondering3 {
+  position: absolute;
+  display: flex;
+  bottom: 80%;
+  left: 5%;
+  transform: rotate(-30deg);
+}
+
+.red-yarn {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+
+}
+
+.sowing-table {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fourthText {
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 414px;) {
+  .sowing-table,
+  .wondering3 img {
+    height: 50%;
+    width: 50%;
+  }
+}
 
 /*fifth page*/
 
