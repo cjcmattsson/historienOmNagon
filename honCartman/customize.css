@@ -11,19 +11,39 @@ body {
   width: 100vw;
 }
 
+
 .noYarn {
   background-color: white;
 }
 
+.section {
+  position: relative;
+  border: none;
+
+}
+
+.landPage, .landPageSmall {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+}
+
 /*First page*/
 
+.first {
+  background-color: rgb(240, 179, 151);
+}
+
 .howdy {
-  background-color: #fff;
+  background-color: rgb(240, 179, 151);
   border: none;
   font-size: 120px;
   top: 0;
   margin: 0 auto;
   text-align: center;
+  color: white;
 
 }
 
@@ -95,18 +115,18 @@ body {
   .secCart img {
     position: absolute;
     margin: 0;
-    width: 90%;
-    height: 60%;
-    margin-top: 5%;
+    width: 65%;
+    height: 45%;
+    margin-top: 10%;
     margin-left: 5%;
+    top: 30%;
   }
 
   .second p {
-    margin: 0;
     transform: rotate(0deg);
-    top: 0;
-    margin: 0px 30px 450px 30px;
-    font-size: 35px;
+    top: ;
+    margin: 10px 30px 380px 30px;
+    font-size: 45px;
   }
 }
 
@@ -114,65 +134,94 @@ body {
 
 .third {
   background-color: #34495e;
-  height: 100%;
-
-}
+ }
 
 .thirdText {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
   margin: auto;
   color: white;
-  font-size: 38px;
-  z-index: 1;
+  font-size: 42px;
+  z-index: 0;
   text-align: center;
+}
 
+.cartThr {
+  margin: auto;
+  height: auto;
 }
 
 .cartThr img{
-  bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 45%;
   height: 50%;
   margin: 0;
   z-index: 1;
   right: 10px;
-  margin-bottom: 100px;
+  overflow: hidden;
+
 }
 
 .doorDark img {
-  z-index: 0;
+  z-index: 1;
   right: 0;
-  height: 90%;
-  width: 90%;
-
+  height: 40%;
+  width: 40%;
 }
-@media screen and (min-width:1024px) {
-  .doorDark {
-    width: 70%;
-    height: 50%;
-  }
 
 
-/*@media screen and (max-width:414px) {
-  .cartThr img {
+
+
+  /*.wondering3 {
+    position: absolute;
+    display: flex;
+    bottom: 80%;
+    left: 5%;
+    transform: rotate(-30deg);
+  }*/
+
+
+@media screen and (max-width:414px) {
+  .cartThr {
     position: absolute;
     margin: 0;
     width: 50%;
     height: 50%;
     margin-top: 5%;
     margin-left: 5%;
+    right: 0px;
+  }
+
+  .cartThr img {
+    position: absolute;
+    margin: 0;
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
   }
 
   .third p {
-    margin: 0;
-    transform: rotate(0deg);
-    top: 0;
-    margin: 0px 30px 450px 30px;
-    font-size: 35px;
+    margin: 0px 30px 0px 30px;
+    font-size: 40px;
   }
-}*/
+
+  .doorDark  {
+    z-index: 1;
+    right: 0;
+    height: 50vh;
+    width: 50vw;
+    margin-right: 0;
+  }
+
+  .doorDark img  {
+    z-index: 1;
+    right: 0;
+    height: 90%;
+    width: 100%;
+    margin-right: 0;
+  }
+
+}
 
 
 /*fourth page*/
@@ -182,13 +231,7 @@ body {
   background-color: #3498db;
 }
 
-.wondering3 {
-  position: absolute;
-  display: flex;
-  bottom: 80%;
-  left: 5%;
-  transform: rotate(-30deg);
-}
+
 
 .red-yarn {
   position: absolute;
@@ -232,17 +275,6 @@ body {
   width: 400px;
 }
 
-.section {
-  position: relative;
-}
-
-.landPage, .landPageSmall {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-attachment: fixed;
-}
 
 img {
   width: 30%;
