@@ -1,6 +1,6 @@
 * {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -20,7 +20,7 @@ body {
 .howdy {
   background-color: #fff;
   border: none;
-  font-size: 70px;
+  font-size: 120px;
   top: 0;
   margin: 0 auto;
   text-align: center;
@@ -29,6 +29,7 @@ body {
 
 .startCart {
   height: 60vh;
+
 }
 
 .startCart img {
@@ -111,21 +112,56 @@ body {
 /*third page*/
 
 .third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.thirdText {
+  font-size: 38px;
+  z-index: 1;
+  margin-left: 20px;
+  margin-top: 0px;
+  text-align: center;
+  position: relative;
+  right: 15px;
 }
 
 .cartThr img{
   bottom: 0;
   position: absolute;
-  width: 50vw;
-  height: 60%;
+  width: 50%;
+  height: 50%;
   margin: 0;
-  z-index: 0;
-  transform: rotate(30deg);
-  left: -50px;
-  top: 20%;
+  z-index: 1;
+  right: 10px;
 }
 
+.doorDark img {
+  z-index: 0;
+  right: 0;
+  height: 50vh;
+
+}
+
+/*@media screen and (max-width:414px) {
+  .cartThr img {
+    position: absolute;
+    margin: 0;
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .third p {
+    margin: 0;
+    transform: rotate(0deg);
+    top: 0;
+    margin: 0px 30px 450px 30px;
+    font-size: 35px;
+  }
+}*/
 
 
 /*fourth page*/
@@ -145,7 +181,6 @@ body {
   width: 400px;
 }
 
-
 .section {
   position: relative;
 }
@@ -157,7 +192,6 @@ body {
   margin: 0;
   background-attachment: fixed;
 }
-
 
 img {
   width: 30%;
@@ -203,22 +237,6 @@ p {
   height: 100%;
 }
 
-
-/*@media only screen and (min-width: 410px) {
-
-}
-
-@media only screen and (max-width: 768px) {
-
-}
-
-@media only screen and (max-width: 420px) {
-
-}
-
-@media only screen and (max-width: 321px) {
-
-}*/
 
 @media screen and (min-width:415px) {
     .landPageSmall {
