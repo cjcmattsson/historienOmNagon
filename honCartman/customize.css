@@ -551,9 +551,43 @@ transform: rotate(-30deg);
 /*ELEVENTH PAGE*/
 
 .eleventh {
-  background-color: 
+  background-color: #8e44ad;
 }
 
 .eleventhText {
+  position: absolute;
+  margin: auto;
+  font-size: 50px;
+  text-align: center;
+  bottom: 5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
 
+.searchingflip {
+  position: absolute;
+  margin: auto;
+  height: 50%;
+  width: 90%;
+  right: 30%;
+  top: 30%;
+}
+
+.stairs {
+  position: absolute;
+  margin: auto;
+  height: 50%;
+  width: 60%;
+  top: 3%;
+  right: 4%;
+}
+
+.searchingflip img {
+  height: 100%;
+  width: 100%;
+}
+
+.stairs img {
+  height: 100%;
+  width: 100%;
 }
