@@ -100,7 +100,7 @@ p {
 /*Second page*/
 
 .splash {
-  bottom: 0px;
+  bottom: 1px;
   height: 15%;
   margin: 0;
 }
@@ -139,7 +139,7 @@ p {
 
 @media screen and (max-width: 414px) {
   .splash img {
-    bottom: 0px;
+    bottom: 1px;
     position: absolute;
     height: 10vh;
     width: 100vw;
