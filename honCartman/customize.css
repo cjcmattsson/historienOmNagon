@@ -461,4 +461,30 @@ transform: rotate(-30deg);
   width: 100%;
 }
 
-/*NINETH PAGE*/
+/*NINTH PAGE*/
+
+.ninth {
+  background-color: #C6EFAB;
+}
+
+.ninthText {
+  font-size: 100px;
+  text-align: center;
+  position: absolute;
+  bottom: -4%;
+  color: black;
+
+}
+
+.wondering7v2 {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+}
+
+.wondering7v2 img {
+  height: 100%;
+  width: 100%;
+}
