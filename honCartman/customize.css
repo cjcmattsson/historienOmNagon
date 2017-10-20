@@ -551,12 +551,13 @@ transform: rotate(-30deg);
 /*ELEVENTH PAGE*/
 
 .eleventh {
-  background-color: #8e44ad;
+  background-color: #34495e;
 }
 
 .eleventhText {
   position: absolute;
   margin: auto;
+  color: white;
   font-size: 50px;
   text-align: center;
   bottom: 5%;
@@ -588,6 +589,63 @@ transform: rotate(-30deg);
 }
 
 .stairs img {
+  height: 100%;
+  width: 100%;
+}
+
+/*PAGE TWELVE*/
+
+.twelfth {
+  background-color: #7f8c8d;
+}
+
+.twelfthText {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  font-size: 34px;
+  top: 39%;
+}
+
+.searchingcart {
+  position: absolute;
+  margin: auto;
+  height: 40%;
+  width: 70%;
+  bottom: 0;
+}
+
+.searchingcart img {
+  position: absolute;
+  height: 90%;
+  width: 80%;
+  bottom: 1%;
+}
+
+.attic {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  height: 40%;
+  width: 95%;
+  left: 2%;
+}
+
+.attic img {
+  height: 100%;
+  width: 100%;
+}
+
+.spider {
+  position: absolute;
+  margin: auto;
+  height: 25%;
+  width: 35%;
+  top: 0;
+  left: 0;
+}
+
+.spider img {
   height: 100%;
   width: 100%;
 }
