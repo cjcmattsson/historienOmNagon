@@ -100,13 +100,13 @@ p {
 /*Second page*/
 
 .splash {
-  bottom: 10px;
+  bottom: 0px;
   height: 15%;
   margin: 0;
 }
 
 .splash img {
-  bottom: opx;
+  bottom: 1px;
   position: absolute;
   width: 100vw;
   margin: 0;
