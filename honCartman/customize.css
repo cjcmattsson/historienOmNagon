@@ -8,6 +8,13 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+/*@media screen and (min-width 414px) {
+    body + #wrapper {
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+}*/
 /*MAIN STYLING FOR IMG AND P DONT TOUCH*/
 
 img {
@@ -52,10 +59,9 @@ p {
 
 .landPage, .landPageSmall {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   margin: 0;
-  background-attachment: fixed;
 }
 
 /*First page*/
@@ -540,4 +546,14 @@ transform: rotate(-30deg);
 .broken-vase img {
   height: 100%;
   width: 100%;
+}
+
+/*ELEVENTH PAGE*/
+
+.eleventh {
+  background-color: 
+}
+
+.eleventhText {
+
 }
