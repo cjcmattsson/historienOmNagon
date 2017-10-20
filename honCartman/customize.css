@@ -427,7 +427,7 @@ transform: rotate(-30deg);
   font-size: 38px;
   position: absolute;
   text-align: center;
-  bottom: 5px;
+  bottom: -20px;
 
 }
 
@@ -449,11 +449,11 @@ transform: rotate(-30deg);
 
 .fishbowl {
   position: absolute;
-  height: 60%;
-  width: 90%;
-  top: 3%;
+  height: 30%;
+  width: 70%;
+  top: 25%;
   z-index: 0;
-  left: 5%;
+  left: 15%;
 }
 
 .fishbowl img {
