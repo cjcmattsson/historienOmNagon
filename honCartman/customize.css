@@ -499,3 +499,45 @@ transform: rotate(-30deg);
   height: 100%;
   width: 100%;
 }
+
+/*TENTH PAGE*/
+
+.tenth {
+  background-color: salmon;
+}
+
+.tenthText {
+  position: absolute;
+  text-align: center;
+  font-size: 36px;
+  bottom: 5px;
+  margin: 0px;
+}
+
+.angryyy {
+  position: absolute;
+  margin: auto;
+  top: 1%;
+  height: 40%;
+  width: 60%;
+  transform: rotate(-10deg);
+}
+.angryyy img {
+  height: 90%;
+  width: 90%;
+}
+
+.broken-vase {
+  position: absolute;
+  margin: auto;
+  height: 30%;
+  width: 40%;
+  left: 55%;
+  top: 20%;
+
+}
+
+.broken-vase img {
+  height: 100%;
+  width: 100%;
+}
