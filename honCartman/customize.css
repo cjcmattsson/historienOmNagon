@@ -138,7 +138,7 @@ body {
   margin: 0;
   z-index: 1;
   right: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 5%;
 }
 
 .doorDark img {
@@ -153,6 +153,7 @@ body {
     width: 70%;
     height: 50%;
   }
+}
 
 
 /*@media screen and (max-width:414px) {
@@ -180,27 +181,38 @@ body {
 
 .fourth {
   background-color: #3498db;
+  height: 100%;
 }
 
-.wondering3 {
+.wondering3 img {
   position: absolute;
   display: flex;
-  bottom: 80%;
+  bottom: 50%;
   left: 5%;
+  height: 40%;
+  width: 30%;
   transform: rotate(-30deg);
 }
 
-.red-yarn {
+.red-yarn img {
   position: absolute;
   display: flex;
-  bottom: 0;
+  left: 40%;
+  margin: auto;
+  bottom: 0px;
+  height: 30%;
+  width: 30%;
 
 }
 
-.sowing-table {
+.sowing-table img {
   position: absolute;
   display: flex;
-  justify-content: flex-end;
+  margin: auto;
+  right: 35px;
+  top: 20px;
+  height: 50%;
+  width: 40%;
 }
 
 .fourthText {
@@ -209,11 +221,11 @@ body {
   margin-top: 100px;
 }
 
-@media screen and (max-width: 414px;) {
-  .sowing-table,
-  .wondering3 img {
-    height: 50%;
-    width: 50%;
+@media screen and (min-width: 414px;) {
+  .sowing-table
+   {
+    max-height: 5%;
+    max-width: 5%;
   }
 }
 
@@ -284,9 +296,9 @@ p {
   margin: auto;
   margin-top: 250px;
 }
-.height {
+/*.height {
   height: 100%;
-}
+}*/
 
 
 @media screen and (min-width:415px) {
