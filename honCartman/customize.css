@@ -954,11 +954,42 @@ transform: rotate(-30deg);
 .rat {
   position: absolute;
   margin: auto;
-  top: 60%;
+  top: 53%;
   left: 20%;
   height: 50%;
   width: 80%;
   transform: rotate(40deg);
+}
+
+@media screen and (min-width: 415px) {
+  .wardrobe {
+    left: 55%;
+    top: 10%;
+    height: 60%;
+    width: 40%;
+  }
+
+  .rat {
+    position: absolute;
+    margin: auto;
+    top: 95%;
+    left: 60%;
+    height: 35%;
+    width: 50%;
+    transform: rotate(40deg);
+  }
+
+  .scaredFaceCartman {
+    position: absolute;
+    margin: auto;
+    top: 1%;
+    height: 65%;
+    width: 70%;
+  }
+}
+
+.thirteenthText {
+  font-size: 42px;
 }
 
 /*FOURTENTH PAGE*/
@@ -968,8 +999,10 @@ transform: rotate(-30deg);
 }
 
 .fourteenthText {
+  position: absolute;
+  bottom: 30%;
   text-align: center;
-  font-size: 32px;
+  font-size: 38px;
   margin-left: 1%;
   margin-right: 1%;
   border-radius: 100%;
@@ -994,10 +1027,10 @@ transform: rotate(-30deg);
 .keyholecat2 {
   position: absolute;
   margin: auto;
-  height: 40%;
-  width: 70%;
-  left: 15%;
-  bottom: 1%;
+  height: 30%;
+  width: 60%;
+  left: 20%;
+  bottom: 4%;
 
 }
 
@@ -1006,6 +1039,33 @@ transform: rotate(-30deg);
   height: 100%;
   width: 100%;
 
+}
+
+@media screen and (min-width: 415px) {
+  .keyholecat2 {
+    height: 50%;
+    width: 40%;
+    bottom: 5%;
+    left: 5%;
+  }
+
+  .sneakingScared {
+    height: 50%;
+    width: 60%;
+    top: 1%;
+    left: 35%;
+  }
+
+  .fourteenthText {
+    position: absolute;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 100%;
+    width: 40%;
+    bottom: 4%;
+    right: 8%;
+    color: #000;
+  }
 }
 
 /*FIFTEENTH PAGE*/
@@ -1034,6 +1094,22 @@ transform: rotate(-30deg);
 .terrified img {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (min-width: 415px) {
+  .terrified {
+    width: 60%;
+  }
+
+  .fifteenthText {
+    position: absolute;
+    margin: auto;
+    font-size: 65px;
+    text-align: center;
+    top: 10%;
+    right: 6%;
+    color: #E8DFD7;
+  }
 }
 
 /*SIXTEENTH PAGE*/
@@ -1080,4 +1156,34 @@ transform: rotate(-30deg);
   height: 100%;
   width: 100%;
 
+}
+
+@media screen and (min-width: 415px) {
+  .hand-open {
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    right: 0px;
+    height: 40%;
+    width: 50%;
+  }
+  .wondering5 {
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    height: 60%;
+    width: 50%;
+  }
+
+  .sixteenthText {
+    position: absolute;
+    margin: auto;
+    font-size: 60px;
+    right: 20%;
+    top: 10%;
+    max-width: 15%;
+    height: 50%;
+    text-align: center;
+    color: #E2E4BE;
+  }
 }
