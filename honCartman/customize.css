@@ -127,7 +127,7 @@ p {
 .second p {
   color: white;
   transform: rotate(35deg);
-  font-size: 60px;
+  font-size: 50px;
   margin-left: 40%;
   margin-top: 0;
 }
@@ -211,10 +211,19 @@ p {
   height: 40%;
   width: 40%;
 }
+
 @media screen and (min-width:1024px) {
   .doorDark {
-    width: 70%;
+    width: 50%;
     height: 50%;
+    margin-left: 5%;
+  }
+
+  .doorDark img {
+    z-index: 1;
+    right: 0;
+    height: 90%;
+    width: 80%;
   }
 }
 
@@ -322,12 +331,43 @@ transform: rotate(-30deg);
   color: white;
 }
 
-@media screen and (min-width: 414px;) {
+@media screen and (min-width: 415px) {
   .sowing-table
   {
     max-height: 5%;
     max-width: 5%;
   }
+
+  .fourthText {
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    right: 30px;
+    bottom: 25%;
+    color: white;
+  }
+
+  .wondering3 img {
+    position: absolute;
+    display: flex;
+    bottom: 22%;
+    left: 0.5%;
+    height: 55%;
+    width: 40%;
+  }
+
+  .red-yarn img {
+    position: absolute;
+    display: flex;
+    left: 57.5%;
+    margin: auto;
+    bottom: 0px;
+    height: 25%;
+    width: 35%;
+
+  }
+
 }
 
 /*fifth page*/
@@ -360,8 +400,21 @@ transform: rotate(-30deg);
 }
 
 
-@media screen and () {
-
+@media screen and (min-width: 415px) {
+  .fifthText {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding-top: 20px;
+    border-radius: 20%;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    right: 30px;
+    top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 
@@ -404,6 +457,46 @@ transform: rotate(-30deg);
   width: 100%;
 }
 
+@media screen and (min-width: 415px) {
+  .sixthText {
+    font-size: 50px;
+    position: absolute;
+    margin: 0 2% 0 0;
+    right: 10px;
+    bottom: 40px;
+    text-align: center;
+  }
+
+  .angry {
+    position: absolute;
+    margin: 0px;
+    left: 45%;
+    top: 2%;
+    height: 50%;
+    width: 50%;
+  }
+
+  .angry img {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .milk {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 25%;
+    left: -10%;
+    transform: rotate(200deg);
+  }
+
+  .milk img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 /*SEVENTH PAGE*/
 
 .seventh {
@@ -432,6 +525,28 @@ transform: rotate(-30deg);
   width: 100%;
   bottom: -68px;
 }
+
+
+@media screen and (min-width: 415px) {
+  .confused {
+    position: absolute;
+    height: 60%;
+    width: 70%;
+    bottom: 0px;
+  }
+
+  .seventhText {
+    position: absolute;
+    text-align: center;
+    top: 7%;
+    right: 9%;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+  }
+
+  }
 
 /*EIGTH PAGE*/
 
