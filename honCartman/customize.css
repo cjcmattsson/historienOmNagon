@@ -1188,7 +1188,7 @@ transform: rotate(-30deg);
   }
 }
 
-/*SIXTEENTH PAGE*/
+/*SEVENTEENTH PAGE*/
 
 .seventeenth {
   background-color: rgb(139, 203, 113);
@@ -1245,4 +1245,176 @@ transform: rotate(-30deg);
     height: 55%;
     width: 45%;
   }
+}
+
+
+/*EIGHTEENTH*/
+
+.eigthteenth {
+  background-color: #000;
+}
+
+.eigthteenText {
+  font-size: 34px;
+  position: absolute;
+  margin: 2%;
+  left: 2%;
+  bottom: 27%;
+  width: 90%;
+  text-align: center;
+  color: white;
+}
+
+.cart8 {
+  position: absolute;
+  margin: 0;
+  top: 1%;
+  right: 20%;
+  height: 45%;
+  width: 55%;
+}
+
+.cart8 img {
+  width: 100%;
+  height: 100%;
+}
+
+.vase8 {
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+  height: 30%;
+  width: 50%;
+}
+
+.vase8 img {
+  width: 100%;
+  height: 100%;
+}
+
+.yarn8 {
+  position: absolute;
+  left: 10%;
+  bottom: 9%;
+  height: 15%;
+  width: 25%;
+}
+
+.yarn8 img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 415px) {
+  .eigthteenText {
+    font-size: 40px;
+    bottom: 18%;
+  }
+  .cart8 {
+    position: absolute;
+    margin: 0;
+    top: 1%;
+    right: 20%;
+    height: 50%;
+    width: 50%;
+  }
+
+  .vase8 {
+    position: absolute;
+    right: 5%;
+    bottom: 1%;
+    height: 35%;
+    width: 45%;
+  }
+
+}
+
+/*NINETEENTH*/
+
+.nineteenth {
+  background-color: rgb(55, 198, 189);
+}
+
+.nineteenthText {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 1%;
+  margin: 3%;
+  text-align: center;
+}
+
+.cat9 {
+  height: 40%;
+  width: 60%;
+  position: absolute;
+  right: 1%;
+  bottom: 2%;
+}
+
+.cat9 img {
+  width: 100%;
+  height: 100%;
+}
+
+.cart9 {
+  position: absolute;
+  bottom: 10%;
+  left: 4%;
+  height: 40%;
+  width: 50%;
+}
+
+.cart9 img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 415px) {
+  .nineteenthText {
+    font-size: 41px;
+    position: absolute;
+    margin-top: 5%;
+    text-align: center;
+    width: 45%;
+  }
+
+  .cart9 {
+    position: absolute;
+    bottom: 50%;
+    left: 57%;
+    height: 40%;
+    width: 40%;
+  }
+
+  .cat9 {
+    height: 40%;
+    width: 50%;
+    position: absolute;
+    right: 8%;
+    bottom: 2%;
+  }
+
+}
+
+/*TWENTIETH*/
+.lastPage {
+  background-color: rgb(231, 87, 125);
+}
+
+.textLast {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding: 3%;
+  margin-bottom: 10%;
+}
+
+.end {
+  font-size: 80px;
+  color: white;
+  margin: auto;
+  padding: 5%;
+  text-align: center;
 }
