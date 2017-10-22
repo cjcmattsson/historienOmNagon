@@ -74,7 +74,6 @@ p {
   background-color: rgb(240, 179, 151);
   border: none;
   font-size: 120px;
-  top: 0;
   margin: 0 auto;
   text-align: center;
   color: white;
@@ -1032,6 +1031,7 @@ transform: rotate(-30deg);
   left: 20%;
   bottom: 4%;
 
+
 }
 
 .keyholecat2 img {
@@ -1167,6 +1167,11 @@ transform: rotate(-30deg);
     height: 40%;
     width: 50%;
   }
+
+  .hand-open img {
+    border-top-left-radius: 25%;
+  }
+
   .wondering5 {
     position: absolute;
     margin: auto;
