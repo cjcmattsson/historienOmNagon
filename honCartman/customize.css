@@ -1187,3 +1187,62 @@ transform: rotate(-30deg);
     color: #E2E4BE;
   }
 }
+
+/*SIXTEENTH PAGE*/
+
+.seventeenth {
+  background-color: rgb(139, 203, 113);
+}
+
+.seventeenthText {
+  font-size: 30px;
+  position: absolute;
+  bottom: 1%;
+  left: 4%;
+  width: 60%;
+  text-align: center;
+}
+
+.cart7 {
+  position: absolute;
+  top: 3%;
+  right: 20%;
+  height: 50%;
+  width: 60%;
+}
+
+.cart7 img {
+  width: 100%;
+  height: 100%;
+}
+
+.vaseFall {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  height: 30%;
+  width: 30%;
+}
+
+.vaseFall img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 415px) {
+  .vaseFall {
+    height: 50%;
+  }
+
+  .seventeenthText {
+    font-size: 43px;
+  }
+
+  .cart7 {
+    position: absolute;
+    top: 3%;
+    right: 45%;
+    height: 55%;
+    width: 45%;
+  }
+}
