@@ -1408,18 +1408,66 @@ transform: rotate(-30deg);
 }
 
 .textLast {
+  position: absolute;
   font-size: 50px;
   text-align: center;
   color: white;
   margin: auto;
   padding: 3%;
+  top: 1px;
   margin-bottom: 10%;
 }
 
 .end {
-  font-size: 80px;
+  position: absolute;
+  font-size: 60px;
   color: white;
   margin: auto;
   padding: 5%;
+  bottom: 1px;
   text-align: center;
+}
+
+.cartmanandcat {
+  position: absolute;
+  margin: auto;
+  top: 32%;
+  left: 19%;
+  height: 40%;
+  width: 60%;
+}
+
+.cartmanandcat img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 415px) {
+  .cartmanandcat {
+    position: absolute;
+    font-size: 41px;
+    position: absolute;
+    left: 1%;
+    top: 20%;
+    width: 45%;
+    height: 60%;
+  }
+
+  .textLast {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    height: 40%;
+    width: 40%;
+  }
+
+  .end {
+    height: 40%;
+    width: 50%;
+    position: absolute;
+    right: 6%;
+    bottom: 1%;
+
+  }
+
 }
