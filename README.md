@@ -10,7 +10,7 @@ som gestaltas genom Cartman och hans olika känslouttryck.
 Projektet ingår i kursen Visuell Kommunikation
 
 
-Christopher Mattsson
+Christopher Mattsson,
 Sebastian Palm
 
 Webbutvecklare, YRGO
