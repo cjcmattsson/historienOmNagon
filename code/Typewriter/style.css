@@ -1,0 +1,226 @@
+@keyframes bgYarn {
+  from {
+    height: 0px;
+    opacity: 0;
+  }
+  to {
+    height: 5000px;
+    opacity: 1;
+  }
+}
+
+body {
+  background-image: url("bgYarn.png");
+  font-family: "Courier New", Monospace;
+  color: #000;
+  font-family: 'Special Elite', cursive;
+  font-weight: lighter;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: contain;
+  height: 5000px;
+  margin: 0;
+  opacity: 0;
+  animation-name: bgYarn;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: translateY(ty);
+  /*overflow: hidden; */ /* SHOWN ON PRESENTATION */
+
+}
+/*LADNINGPAGE */
+@keyframes start_happy {
+  from
+  {
+    transform: rotate(20deg);
+    margin-left: -20%;
+  }
+  to
+  {
+    transform: rotate(-20deg);
+    margin-left: 100px;
+  }
+}
+.start_happy {
+  background-image: url(../cartman/startHappy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 50px;
+  animation-name: start_happy;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+/*PAGE TWO*/
+
+
+@keyframes wondering_5  {
+  from
+  {
+    height: 200px;
+    width: 200px;
+    margin-right: -20%;
+    transform: rotate(180deg);
+  }
+  to
+  {
+    height: 400px;
+    width: 400px;
+    margin-right: 120px;
+    transform: rotate(20deg);
+  }
+}
+.wondering_5-animate {
+  animation-name: wondering_5;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  background-image: url(../cartman/wondering5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  /*height: 400px;
+  width: 400px;*/
+  margin-top: 200px;
+}
+
+
+@keyframes splash {
+  from
+  {
+    transform: rotate(180deg);
+    height: 5px;
+    margin-left: -20%;
+
+  }
+  to
+  {
+    transform: rotate(10deg);
+    height: 250px;
+    margin-left: 100px;
+  }
+}
+.splash-animate {
+  animation-name: splash;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  background-image: url(../images/splash.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -20%;
+}
+
+
+
+/*PUSH DOWN OCH TYPEWRITER*/
+.text {
+  max-height: 30%;
+  background-size: contain;
+  font-size: 22px;
+  margin: 0px 40px 0px 40px;
+  padding: 2em;
+  line-height: 1.5em;
+}
+
+#divID {
+  background-image: url("oldPaper.png");
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 610px;
+  max-width: 900px;
+  bottom: -340px;
+  margin: 0 auto;
+  position: fixed;
+    /* center the element */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.first {
+    width: 100%;
+    height: 400px;
+    background: black;
+}
+
+.second {
+    width: 100%;
+    height: 400px;
+    background: blue;
+
+}
+.third {
+    width: 100%;
+    height: 400px;
+
+}
+/*MEDIA RESPONSIVE*/
+
+@media only screen and (min-width : 569px) and (max-width : 1024px) {
+
+  .text {
+    font-size: 18px;
+    margin-top: 60px;
+  }
+
+  #divID {
+    background-image: url("oldPaper.png");
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 650px;
+    max-width: 900px;
+    bottom: -240px;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .text {
+    font-size: 12px;
+
+    margin: 20px 20px 0px 20px;
+  }
+
+#divID {
+  background-image: url("oldPaper.png");
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 300px;
+  max-width: 900px;
+  bottom: -50px;
+  margin: 0 auto;
+  position: fixed;
+    /* center the element */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+
+
+/*@media screen and (min-width: 1200px) {
+  .text {
+    font-size: 18px;
+    margin-top: 60px;
+  }
+
+}*/
